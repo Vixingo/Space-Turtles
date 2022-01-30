@@ -17,7 +17,7 @@ function Navbar() {
                 }}
             >
                 <div className="container">
-                    <nav className="navbar navbar-expand-lg navbar-dark ">
+                    <nav className="navbar navbar-expand-xl navbar-dark ">
                         <div className="container-fluid">
                             <a className="navbar-brand" href="#">
                                 <img

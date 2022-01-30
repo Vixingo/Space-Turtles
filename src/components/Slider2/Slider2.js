@@ -3,6 +3,22 @@ import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
 
 function Slider2() {
+    const options = {
+        responsive: {
+            0: {
+                items: 1,
+            },
+            600: {
+                items: 3,
+            },
+            1000: {
+                items: 5,
+            },
+            1200: {
+                items: 7,
+            },
+        },
+    };
     return (
         <>
             <section className="Slider2 " style={{ marginBottom: "100px" }}>
@@ -11,9 +27,9 @@ function Slider2() {
                     className="owl-theme"
                     loop
                     margin={20}
-                    items={7}
                     autoplay={true}
                     autoplayTimeout={2000}
+                    {...options}
                 >
                     <div className="item">
                         <img src="../img/Slide2/270.png" alt="" />

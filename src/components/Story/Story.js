@@ -24,7 +24,7 @@ function Story() {
                         STORY
                     </Typography>
                     <div className="row mb-4">
-                        <div className="col-md-6">
+                        <div className="col-xl-6">
                             <Typography
                                 sx={{
                                     color: "#fff",
@@ -70,7 +70,7 @@ function Story() {
                                 everyone around him.
                             </Typography>
                         </div>
-                        <div className="col-md-6 ">
+                        <div className="col-xl-6 ">
                             <img
                                 src="../img/aboutImg.png"
                                 alt=""
@@ -84,7 +84,7 @@ function Story() {
                         </div>
                     </div>
                     <div className="row mb-4">
-                        <div className="col-md-6">
+                        <div className="col-xl-6">
                             <Typography
                                 sx={{
                                     color: "#fff",
@@ -121,7 +121,7 @@ function Story() {
                                 whole heart and soul into it.
                             </Typography>
                         </div>
-                        <div className="col-md-6">
+                        <div className="col-xl-6">
                             <Typography
                                 sx={{
                                     color: "#fff",
@@ -165,7 +165,7 @@ function Story() {
                         </div>
                     </div>
                     <div className="row mb-4">
-                        <div className="col-md-6">
+                        <div className="col-xl-6">
                             <Typography
                                 sx={{
                                     color: "#fff",
@@ -216,7 +216,7 @@ function Story() {
                                 thinking.
                             </Typography>
                         </div>
-                        <div className="col-md-6">
+                        <div className="col-xl-6">
                             <Typography
                                 sx={{
                                     color: "#fff",

@@ -23,7 +23,7 @@ function About() {
                         ABOUT US
                     </Typography>
                     <div className="row mb-4">
-                        <div className="col-md-6">
+                        <div className="col-lg-6">
                             <Typography
                                 sx={{
                                     color: "#fff",
@@ -54,7 +54,7 @@ function About() {
                                 while following their dreams. This is our dream!
                             </Typography>
                         </div>
-                        <div className="col-md-6">
+                        <div className="col-lg-6">
                             <img
                                 src="../img/aboutImg.png"
                                 width="80%"
@@ -68,7 +68,7 @@ function About() {
                         </div>
                     </div>
                     <div className="row">
-                        <div className="col-md-6">
+                        <div className="col-lg-6">
                             <Typography
                                 sx={{
                                     color: "#fff",
@@ -102,7 +102,7 @@ function About() {
                                 and wave their flag at the top.
                             </Typography>
                         </div>
-                        <div className="col-md-6">
+                        <div className="col-lg-6">
                             <Typography
                                 sx={{
                                     color: "#fff",

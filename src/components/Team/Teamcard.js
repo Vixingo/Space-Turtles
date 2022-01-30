@@ -4,7 +4,7 @@ import { Typography, Box } from "@mui/material";
 function Teamcard(props) {
     return (
         <>
-            <div className="col-md-4 mb-5">
+            <div className="col-md-6 col-lg-4 mb-5">
                 <Box>
                     <img
                         src={props.imgsrc}

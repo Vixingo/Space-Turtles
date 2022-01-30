@@ -4,16 +4,30 @@ import React from "react";
 function Hero() {
     return (
         <>
-            <section
+            <Box
                 id="hero"
-                style={{ paddingTop: "250px", marginBottom: "180px" }}
+                sx={{
+                    paddingTop: "250px",
+                    marginBottom: "180px",
+                    "@media (max-width: 991px)": {
+                        paddingTop: "130px",
+                    },
+                    "@media (max-width: 767px)": {
+                        paddingTop: "130px",
+                    },
+                }}
             >
                 <div className="container">
                     <div className="row">
-                        <div className="col-md-6">
-                            <img src="../img/logo.png" alt="" width="100%" />
+                        <div className="col-lg-6">
+                            <img
+                                src="../img/logo.png"
+                                alt=""
+                                width="100%"
+                                className="mb-5"
+                            />
                         </div>
-                        <div className="col-md-6">
+                        <div className="col-lg-6">
                             <Box sx={{ color: "#fff" }}>
                                 <Typography
                                     variant="h3"
@@ -21,6 +35,9 @@ function Hero() {
                                         textAlign: "center",
                                         fontFamily: "Montserrat",
                                         fontWeight: "700",
+                                        "@media (max-width: 767px)": {
+                                            fontSize: "20px",
+                                        },
                                     }}
                                 >
                                     WELCOME TO SPACETURTLES COLLECTIONS
@@ -33,6 +50,9 @@ function Hero() {
                                         textAlign: "center",
                                         fontFamily: "Montserrat",
                                         fontWeight: "700",
+                                        "@media (max-width: 767px)": {
+                                            fontSize: "18px",
+                                        },
                                     }}
                                 >
                                     Privatesale ends in:
@@ -46,6 +66,9 @@ function Hero() {
                                         "& > :not(style)": {
                                             fontWeight: "700",
                                             fontSize: "25px",
+                                            "@media (max-width: 767px)": {
+                                                fontSize: "18px",
+                                            },
                                         },
                                     }}
                                 >
@@ -81,7 +104,7 @@ function Hero() {
                         </div>
                     </div>
                 </div>
-            </section>
+            </Box>
         </>
     );
 }
