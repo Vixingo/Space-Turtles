@@ -5,7 +5,7 @@ import React from "react";
 function Story() {
     return (
         <>
-            <section className="Story">
+            <section className="Story" style={{ marginTop: "100px" }}>
                 <div className="container">
                     <Typography
                         variant="h2"
@@ -17,7 +17,7 @@ function Story() {
                             mb: 5,
                         }}
                     >
-                        Story
+                        STORY
                     </Typography>
                     <div className="row mb-4">
                         <div className="col-md-6">

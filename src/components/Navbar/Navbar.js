@@ -13,6 +13,7 @@ function Navbar() {
                     position: "fixed",
                     width: "100%",
                     top: "0",
+                    zIndex: "1000",
                 }}
             >
                 <div className="container">

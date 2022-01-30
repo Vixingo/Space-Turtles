@@ -1,10 +1,11 @@
 import React from "react";
 import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
-function Slider1() {
+
+function Slider2() {
     return (
         <>
-            <section className="Slider1" style={{ marginBottom: "100px" }}>
+            <section className="Slider2 " style={{ marginBottom: "100px" }}>
                 {" "}
                 <OwlCarousel
                     className="owl-theme"
@@ -15,64 +16,64 @@ function Slider1() {
                     autoplayTimeout={2000}
                 >
                     <div className="item">
-                        <img src="../img/slide1/ALBANIA.png" alt="" />
+                        <img src="../img/Slide2/270.png" alt="" />
                     </div>
                     <div className="item">
-                        <img src="../img/slide1/ARGENTINA.png" alt="" />
+                        <img src="../img/Slide2/295.png" alt="" />
                     </div>
                     <div className="item">
-                        <img src="../img/slide1/AUSTRALIA.png" alt="" />
+                        <img src="../img/Slide2/821.png" alt="" />
                     </div>
                     <div className="item">
-                        <img src="../img/slide1/BELGIUM.png" alt="" />
+                        <img src="../img/Slide2/824.png" alt="" />
                     </div>
                     <div className="item">
-                        <img src="../img/slide1/BOSNIA.png" alt="" />
+                        <img src="../img/Slide2/960.png" alt="" />
                     </div>
                     <div className="item">
-                        <img src="../img/slide1/BRAZIL.png" alt="" />
+                        <img src="../img/Slide2/1085.png" alt="" />
                     </div>
                     <div className="item">
-                        <img src="../img/slide1/CHILE.png" alt="" />
+                        <img src="../img/Slide2/1217.png" alt="" />
                     </div>
                     <div className="item">
-                        <img src="../img/slide1/COLOMBIA.png" alt="" />
+                        <img src="../img/Slide2/1626.png" alt="" />
                     </div>
                     <div className="item">
-                        <img src="../img/slide1/CROATIA.png" alt="" />
+                        <img src="../img/Slide2/2234.png" alt="" />
                     </div>
                     <div className="item">
-                        <img src="../img/slide1/DENMARK.png" alt="" />
+                        <img src="../img/Slide2/2443.png" alt="" />
                     </div>
                     <div className="item">
-                        <img src="../img/slide1/ENGLAND.png" alt="" />
+                        <img src="../img/Slide2/2450.png" alt="" />
                     </div>
                     <div className="item">
-                        <img src="../img/slide1/INDIA.png" alt="" />
+                        <img src="../img/Slide2/2632.png" alt="" />
                     </div>
                     <div className="item">
-                        <img src="../img/slide1/IRAN.png" alt="" />
+                        <img src="../img/Slide2/3579.png" alt="" />
                     </div>
                     <div className="item">
-                        <img src="../img/slide1/ITALY.png" alt="" />
+                        <img src="../img/Slide2/3909.png" alt="" />
                     </div>
                     <div className="item">
-                        <img src="../img/slide1/SWEDEN.png" alt="" />
+                        <img src="../img/Slide2/6861.png" alt="" />
                     </div>
                     <div className="item">
-                        <img src="../img/slide1/SWITZERLAND.png" alt="" />
+                        <img src="../img/Slide2/7483.png" alt="" />
                     </div>
                     <div className="item">
-                        <img src="../img/slide1/THAILAND.png" alt="" />
+                        <img src="../img/Slide2/7929.png" alt="" />
                     </div>
                     <div className="item">
-                        <img src="../img/slide1/TURKEY.png" alt="" />
+                        <img src="../img/Slide2/8402.png" alt="" />
                     </div>
                     <div className="item">
-                        <img src="../img/slide1/UNITED KINGDOM.png" alt="" />
+                        <img src="../img/Slide2/8729.png" alt="" />
                     </div>
                     <div className="item">
-                        <img src="../img/slide1/USA.png" alt="" />
+                        <img src="../img/Slide2/9573.png" alt="" />
                     </div>
                 </OwlCarousel>
             </section>
@@ -80,4 +81,4 @@ function Slider1() {
     );
 }
 
-export default Slider1;
+export default Slider2;
