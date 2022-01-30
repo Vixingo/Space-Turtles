@@ -274,22 +274,26 @@ function Story() {
                                     justifyContent: "center",
                                 }}
                             >
-                                <a className="nav-link" href="#Story">
+                                <a
+                                    className="nav-link"
+                                    href="https://twitter.com/SpaceTurtlesNFT"
+                                >
                                     <IconButton
                                         sx={{
                                             color: "#fff",
-
+                                            fontSize: "30px",
                                             ":hover": {
                                                 color: "#7da275",
                                             },
                                         }}
                                     >
-                                        <TwitterIcon
-                                            sx={{ fontSize: "30px" }}
-                                        />
+                                        <i class="fab fa-twitter"></i>
                                     </IconButton>
                                 </a>
-                                <a className="nav-link" href="#Story">
+                                <a
+                                    className="nav-link"
+                                    href="https://discord.gg/6h5PFSUkFu"
+                                >
                                     <IconButton
                                         sx={{
                                             color: "#fff",

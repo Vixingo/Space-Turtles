@@ -1,5 +1,4 @@
 import React from "react";
-import TwitterIcon from "@mui/icons-material/Twitter";
 import IconButton from "@mui/material/IconButton";
 import { Button, Stack } from "@mui/material";
 function Navbar() {
@@ -80,7 +79,7 @@ function Navbar() {
                                         <Stack sx={{ flexDirection: "row" }}>
                                             <a
                                                 className="nav-link"
-                                                href="#Story"
+                                                href="https://twitter.com/SpaceTurtlesNFT"
                                             >
                                                 <IconButton
                                                     sx={{
@@ -90,12 +89,12 @@ function Navbar() {
                                                         },
                                                     }}
                                                 >
-                                                    <TwitterIcon />
+                                                    <i class="fab fa-twitter"></i>
                                                 </IconButton>
                                             </a>
                                             <a
                                                 className="nav-link"
-                                                href="#Story"
+                                                href="https://discord.gg/6h5PFSUkFu"
                                             >
                                                 <IconButton
                                                     sx={{

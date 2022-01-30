@@ -1,5 +1,6 @@
 import { Box, Stack, Typography } from "@mui/material";
 import React, { useEffect, useState } from "react";
+import "animate.css";
 
 let my = setInterval(function () {
     var bd = new Date("feb 5, 2022 7:59:59").getTime();
@@ -48,7 +49,7 @@ function Hero() {
                                 src="../img/logo.png"
                                 alt=""
                                 width="100%"
-                                className="mb-5"
+                                className="mb-5 animate__animated  animate__fadeInLeft"
                             />
                         </div>
                         <div className="col-lg-6 align-self-center">
@@ -87,9 +88,10 @@ function Hero() {
                                     sx={{
                                         flexDirection: "row",
                                         alignItems: "center",
-                                        justifyContent: "space-evenly",
+                                        justifyContent: "center",
                                         textAlign: "center",
                                         "& > :not(style)": {
+                                            margin: "0 15px",
                                             fontWeight: "700",
                                             fontSize: "21px",
                                             "@media (max-width: 767px)": {
