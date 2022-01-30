@@ -1,6 +1,30 @@
 import { Box, Stack, Typography } from "@mui/material";
-import React from "react";
+import React, { useEffect, useState } from "react";
 
+let my = setInterval(function () {
+    var bd = new Date("feb 5, 2022 7:59:59").getTime();
+    var now = new Date().getTime();
+    var rem = bd - now;
+
+    console.log(rem);
+
+    var days = Math.floor(rem / (1000 * 60 * 60 * 24));
+    console.log(days);
+
+    var hour = Math.floor((rem / (1000 * 60 * 60)) % 24);
+    console.log(hour);
+
+    var minute = Math.floor((rem / 1000 / 60) % 60);
+    console.log(minute);
+
+    var second = Math.floor((rem / 1000) % 60);
+    console.log(second);
+
+    document.getElementById("day").innerHTML = days;
+    document.getElementById("hour").innerHTML = hour;
+    document.getElementById("min").innerHTML = minute;
+    document.getElementById("sec").innerHTML = second;
+}, 1000);
 function Hero() {
     return (
         <>
@@ -75,28 +99,28 @@ function Hero() {
                                     <Typography>
                                         Days{" "}
                                         <Typography sx={{ fontSize: "40px" }}>
-                                            00
+                                            <span id="day"></span>
                                         </Typography>
                                     </Typography>
                                     :
                                     <Typography>
                                         Hours{" "}
                                         <Typography sx={{ fontSize: "40px" }}>
-                                            00
+                                            <span id="hour"></span>
                                         </Typography>
                                     </Typography>
                                     :
                                     <Typography>
                                         Minutes{" "}
                                         <Typography sx={{ fontSize: "40px" }}>
-                                            00
+                                            <span id="min"></span>
                                         </Typography>
                                     </Typography>
                                     :
                                     <Typography>
                                         Seconds{" "}
                                         <Typography sx={{ fontSize: "40px" }}>
-                                            00
+                                            <span id="sec"></span>
                                         </Typography>
                                     </Typography>
                                 </Stack>
