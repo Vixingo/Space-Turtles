@@ -4,7 +4,11 @@ import React from "react";
 function About() {
     return (
         <>
-            <section id="about" className="mb-5">
+            <section
+                id="about"
+                style={{ paddingTop: "100px" }}
+                className="mb-5"
+            >
                 <div className="container">
                     <Typography
                         variant="h2"

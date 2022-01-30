@@ -6,7 +6,7 @@ function Hero() {
         <>
             <section
                 id="hero"
-                style={{ marginTop: "250px", marginBottom: "180px" }}
+                style={{ paddingTop: "250px", marginBottom: "180px" }}
             >
                 <div className="container">
                     <div className="row">

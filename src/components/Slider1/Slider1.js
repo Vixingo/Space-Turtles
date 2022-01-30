@@ -4,7 +4,7 @@ import "owl.carousel/dist/assets/owl.carousel.css";
 function Slider1() {
     return (
         <>
-            <section className="Slider1" style={{ marginBottom: "100px" }}>
+            <section className="Slider1">
                 {" "}
                 <OwlCarousel
                     className="owl-theme"

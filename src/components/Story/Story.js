@@ -5,7 +5,11 @@ import React from "react";
 function Story() {
     return (
         <>
-            <section className="Story" style={{ marginTop: "100px" }}>
+            <section
+                className="Story"
+                id="Story"
+                style={{ paddingTop: "100px" }}
+            >
                 <div className="container">
                     <Typography
                         variant="h2"

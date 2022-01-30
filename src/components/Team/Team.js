@@ -31,7 +31,7 @@ const teamData = [
 function Team() {
     return (
         <>
-            <section className="Team" style={{ marginTop: "100px" }}>
+            <section className="Team" id="Team" style={{ paddingTop: "100px" }}>
                 <div className="conitainer">
                     <Typography
                         variant="h2"

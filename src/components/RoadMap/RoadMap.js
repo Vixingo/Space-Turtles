@@ -4,7 +4,11 @@ import React from "react";
 function RoadMap() {
     return (
         <>
-            <section className="RoadMap " style={{ marginTop: "150px" }}>
+            <section
+                className="RoadMap "
+                id="RoadMap"
+                style={{ paddingTop: "100px" }}
+            >
                 <div className="container">
                     <Typography
                         variant="h2"
