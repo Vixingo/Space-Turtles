@@ -51,11 +51,13 @@ function Hero() {
                                 className="mb-5"
                             />
                         </div>
-                        <div className="col-lg-6">
+                        <div className="col-lg-6 align-self-center">
                             <Box sx={{ color: "#fff" }}>
                                 <Typography
                                     variant="h3"
                                     sx={{
+                                        maxWidth: "400px",
+                                        margin: "0 auto",
                                         textAlign: "center",
                                         fontFamily: "Montserrat",
                                         fontWeight: "700",
@@ -67,7 +69,7 @@ function Hero() {
                                     WELCOME TO SPACETURTLES COLLECTIONS
                                 </Typography>
                                 <Typography
-                                    variant="h4"
+                                    variant="h5"
                                     sx={{
                                         mt: 4,
                                         mb: 3,
@@ -89,9 +91,9 @@ function Hero() {
                                         textAlign: "center",
                                         "& > :not(style)": {
                                             fontWeight: "700",
-                                            fontSize: "25px",
+                                            fontSize: "21px",
                                             "@media (max-width: 767px)": {
-                                                fontSize: "18px",
+                                                fontSize: "16px",
                                             },
                                         },
                                     }}

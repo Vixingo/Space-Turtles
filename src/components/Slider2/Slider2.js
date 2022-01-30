@@ -32,64 +32,64 @@ function Slider2() {
                     {...options}
                 >
                     <div className="item">
-                        <img src="../img/Slide2/270.png" alt="" />
+                        <img src="../img/Slide2/Optimized-270.png" alt="" />
                     </div>
                     <div className="item">
-                        <img src="../img/Slide2/295.png" alt="" />
+                        <img src="../img/Slide2/Optimized-295.png" alt="" />
                     </div>
                     <div className="item">
-                        <img src="../img/Slide2/821.png" alt="" />
+                        <img src="../img/Slide2/Optimized-821.png" alt="" />
                     </div>
                     <div className="item">
-                        <img src="../img/Slide2/824.png" alt="" />
+                        <img src="../img/Slide2/Optimized-824.png" alt="" />
                     </div>
                     <div className="item">
-                        <img src="../img/Slide2/960.png" alt="" />
+                        <img src="../img/Slide2/Optimized-960.png" alt="" />
                     </div>
                     <div className="item">
-                        <img src="../img/Slide2/1085.png" alt="" />
+                        <img src="../img/Slide2/Optimized-1085.png" alt="" />
                     </div>
                     <div className="item">
-                        <img src="../img/Slide2/1217.png" alt="" />
+                        <img src="../img/Slide2/Optimized-1217.png" alt="" />
                     </div>
                     <div className="item">
-                        <img src="../img/Slide2/1626.png" alt="" />
+                        <img src="../img/Slide2/Optimized-1626.png" alt="" />
                     </div>
                     <div className="item">
-                        <img src="../img/Slide2/2234.png" alt="" />
+                        <img src="../img/Slide2/Optimized-2234.png" alt="" />
                     </div>
                     <div className="item">
-                        <img src="../img/Slide2/2443.png" alt="" />
+                        <img src="../img/Slide2/Optimized-2443.png" alt="" />
                     </div>
                     <div className="item">
-                        <img src="../img/Slide2/2450.png" alt="" />
+                        <img src="../img/Slide2/Optimized-2450.png" alt="" />
                     </div>
                     <div className="item">
-                        <img src="../img/Slide2/2632.png" alt="" />
+                        <img src="../img/Slide2/Optimized-2632.png" alt="" />
                     </div>
                     <div className="item">
-                        <img src="../img/Slide2/3579.png" alt="" />
+                        <img src="../img/Slide2/Optimized-3579.png" alt="" />
                     </div>
                     <div className="item">
-                        <img src="../img/Slide2/3909.png" alt="" />
+                        <img src="../img/Slide2/Optimized-3909.png" alt="" />
                     </div>
                     <div className="item">
-                        <img src="../img/Slide2/6861.png" alt="" />
+                        <img src="../img/Slide2/Optimized-6861.png" alt="" />
                     </div>
                     <div className="item">
-                        <img src="../img/Slide2/7483.png" alt="" />
+                        <img src="../img/Slide2/Optimized-7483.png" alt="" />
                     </div>
                     <div className="item">
-                        <img src="../img/Slide2/7929.png" alt="" />
+                        <img src="../img/Slide2/Optimized-7929.png" alt="" />
                     </div>
                     <div className="item">
-                        <img src="../img/Slide2/8402.png" alt="" />
+                        <img src="../img/Slide2/Optimized-8402.png" alt="" />
                     </div>
                     <div className="item">
-                        <img src="../img/Slide2/8729.png" alt="" />
+                        <img src="../img/Slide2/Optimized-8729.png" alt="" />
                     </div>
                     <div className="item">
-                        <img src="../img/Slide2/9573.png" alt="" />
+                        <img src="../img/Slide2/Optimized-9573.png" alt="" />
                     </div>
                 </OwlCarousel>
             </section>

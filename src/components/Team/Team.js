@@ -3,27 +3,27 @@ import React from "react";
 import Teamcard from "./Teamcard";
 const teamData = [
     {
-        imgsrc: "../img/Slide1/SWEDEN.png",
+        imgsrc: "../img/Slide1/Optimized-SWEDEN.png",
         name: "LYFT",
         desi: "Director & Visionary of SpaceTurtles NFT",
     },
     {
-        imgsrc: "../img/Slide1/JAPAN.png",
+        imgsrc: "../img/Slide1/Optimized-JAPAN.png",
         name: "CLIFF",
         desi: "Director of Community & Marketing of SpaceTurtles NFT",
     },
     {
-        imgsrc: "../img/Slide1/INDIA.png",
+        imgsrc: "../img/Slide1/Optimized-INDIA.png",
         name: "SAJAL",
         desi: "Community leader of SpaceTurtles NFT",
     },
     {
-        imgsrc: "../img/Slide1/UNITED KINGDOM.png",
+        imgsrc: "../img/Slide1/Optimized-UNITED KINGDOM.png",
         name: "MR. MOORE",
         desi: "Artist of SpaceTurtles NFT",
     },
     {
-        imgsrc: "../img/Slide1/AUSTRALIA.png",
+        imgsrc: "../img/Slide1/Optimized-AUSTRALIA.png",
         name: "ABUBLACK",
         desi: "Smart Contract Engineer & Developer of SpaceTurtles NFT",
     },

@@ -120,52 +120,7 @@ function Story() {
                                 turtles can achieve everything if they put their
                                 whole heart and soul into it.
                             </Typography>
-                        </div>
-                        <div className="col-xl-6">
-                            <Typography
-                                sx={{
-                                    color: "#fff",
-                                    fontFamily: "Montserrat",
-                                    textAlign: "justify",
-                                    fontSize: "1.0rem",
-                                    lineHeight: "2rem",
-                                }}
-                            >
-                                <span
-                                    style={{
-                                        fontSize: "25px",
-                                        fontWeight: "bold",
-                                    }}
-                                >
-                                    T
-                                </span>
-                                he engines erupted, and he was in the air. He
-                                held his breath for the first few minutes
-                                waiting for the noise to fade, it felt like
-                                forever to him until the first part of the ship
-                                detached, and then the second countdown began,
-                                and he was out of the atmosphere in his
-                                self-made rocket when the final piece detached.
-                                The screen in front of him gave him the view of
-                                everything his spacecraft passed. Keeping track
-                                of time in space is useless, but he knew he was
-                                in outer space as the third alarm went off. It
-                                was almost tough to see anything when he looked
-                                outside the screen, but he knew he was on the
-                                right track. He traveled across multiple
-                                galaxies exploring planets and conducting
-                                experiments to determine if any of them was
-                                habitable. After multiple failures, he finally
-                                discovered a new planet, which had enough
-                                resources to sustain life as we know it. With
-                                his sheer will and determination, he fulfilled
-                                his dreams of finding a new home in space, and
-                                now he aims to set up a colony on this planet.
-                            </Typography>
-                        </div>
-                    </div>
-                    <div className="row mb-4">
-                        <div className="col-xl-6">
+                            <br />
                             <Typography
                                 sx={{
                                     color: "#fff",
@@ -217,6 +172,47 @@ function Story() {
                             </Typography>
                         </div>
                         <div className="col-xl-6">
+                            <Typography
+                                sx={{
+                                    color: "#fff",
+                                    fontFamily: "Montserrat",
+                                    textAlign: "justify",
+                                    fontSize: "1.0rem",
+                                    lineHeight: "2rem",
+                                }}
+                            >
+                                <span
+                                    style={{
+                                        fontSize: "25px",
+                                        fontWeight: "bold",
+                                    }}
+                                >
+                                    T
+                                </span>
+                                he engines erupted, and he was in the air. He
+                                held his breath for the first few minutes
+                                waiting for the noise to fade, it felt like
+                                forever to him until the first part of the ship
+                                detached, and then the second countdown began,
+                                and he was out of the atmosphere in his
+                                self-made rocket when the final piece detached.
+                                The screen in front of him gave him the view of
+                                everything his spacecraft passed. Keeping track
+                                of time in space is useless, but he knew he was
+                                in outer space as the third alarm went off. It
+                                was almost tough to see anything when he looked
+                                outside the screen, but he knew he was on the
+                                right track. He traveled across multiple
+                                galaxies exploring planets and conducting
+                                experiments to determine if any of them was
+                                habitable. After multiple failures, he finally
+                                discovered a new planet, which had enough
+                                resources to sustain life as we know it. With
+                                his sheer will and determination, he fulfilled
+                                his dreams of finding a new home in space, and
+                                now he aims to set up a colony on this planet.
+                            </Typography>
+                            <br />
                             <Typography
                                 sx={{
                                     color: "#fff",

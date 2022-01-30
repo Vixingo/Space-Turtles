@@ -17,11 +17,11 @@ function Navbar() {
                 }}
             >
                 <div className="container">
-                    <nav className="navbar navbar-expand-xl navbar-dark ">
+                    <nav className="navbar navbar-expand-xl navbar-dark p-0">
                         <div className="container-fluid">
-                            <a className="navbar-brand" href="#">
+                            <a className="navbar-brand p-0" href="#">
                                 <img
-                                    src="../img/logo.png"
+                                    src="../img/navlogo.png"
                                     alt=""
                                     width="90px"
                                 />

@@ -31,64 +31,82 @@ function Slider1() {
                     {...options}
                 >
                     <div className="item">
-                        <img src="../img/slide1/ALBANIA.png" alt="" />
+                        <img src="../img/slide1/Optimized-ALBANIA.png" alt="" />
                     </div>
                     <div className="item">
-                        <img src="../img/slide1/ARGENTINA.png" alt="" />
+                        <img
+                            src="../img/slide1/Optimized-ARGENTINA.png"
+                            alt=""
+                        />
                     </div>
                     <div className="item">
-                        <img src="../img/slide1/AUSTRALIA.png" alt="" />
+                        <img
+                            src="../img/slide1/Optimized-AUSTRALIA.png"
+                            alt=""
+                        />
                     </div>
                     <div className="item">
-                        <img src="../img/slide1/BELGIUM.png" alt="" />
+                        <img src="../img/slide1/Optimized-BELGIUM.png" alt="" />
                     </div>
                     <div className="item">
-                        <img src="../img/slide1/BOSNIA.png" alt="" />
+                        <img src="../img/slide1/Optimized-BOSNIA.png" alt="" />
                     </div>
                     <div className="item">
-                        <img src="../img/slide1/BRAZIL.png" alt="" />
+                        <img src="../img/slide1/Optimized-BRAZIL.png" alt="" />
                     </div>
                     <div className="item">
-                        <img src="../img/slide1/CHILE.png" alt="" />
+                        <img src="../img/slide1/Optimized-CHILE.png" alt="" />
                     </div>
                     <div className="item">
-                        <img src="../img/slide1/COLOMBIA.png" alt="" />
+                        <img
+                            src="../img/slide1/Optimized-COLOMBIA.png"
+                            alt=""
+                        />
                     </div>
                     <div className="item">
-                        <img src="../img/slide1/CROATIA.png" alt="" />
+                        <img src="../img/slide1/Optimized-CROATIA.png" alt="" />
                     </div>
                     <div className="item">
-                        <img src="../img/slide1/DENMARK.png" alt="" />
+                        <img src="../img/slide1/Optimized-DENMARK.png" alt="" />
                     </div>
                     <div className="item">
-                        <img src="../img/slide1/ENGLAND.png" alt="" />
+                        <img src="../img/slide1/Optimized-ENGLAND.png" alt="" />
                     </div>
                     <div className="item">
-                        <img src="../img/slide1/INDIA.png" alt="" />
+                        <img src="../img/slide1/Optimized-INDIA.png" alt="" />
                     </div>
                     <div className="item">
-                        <img src="../img/slide1/IRAN.png" alt="" />
+                        <img src="../img/slide1/Optimized-IRAN.png" alt="" />
                     </div>
                     <div className="item">
-                        <img src="../img/slide1/ITALY.png" alt="" />
+                        <img src="../img/slide1/Optimized-ITALY.png" alt="" />
                     </div>
                     <div className="item">
-                        <img src="../img/slide1/SWEDEN.png" alt="" />
+                        <img src="../img/slide1/Optimized-SWEDEN.png" alt="" />
                     </div>
                     <div className="item">
-                        <img src="../img/slide1/SWITZERLAND.png" alt="" />
+                        <img
+                            src="../img/slide1/Optimized-SWITZERLAND.png"
+                            alt=""
+                        />
                     </div>
                     <div className="item">
-                        <img src="../img/slide1/THAILAND.png" alt="" />
+                        <img
+                            src="../img/slide1/Optimized-THAILAND.png"
+                            alt=""
+                        />
                     </div>
                     <div className="item">
-                        <img src="../img/slide1/TURKEY.png" alt="" />
+                        <img src="../img/slide1/Optimized-TURKEY.png" alt="" />
                     </div>
                     <div className="item">
-                        <img src="../img/slide1/UNITED KINGDOM.png" alt="" />
+                        <img
+                            src="../img/slide1/Optimized-UNITED KINGDOM.png"
+                            alt=""
+                        />
                     </div>
                     <div className="item">
-                        <img src="../img/slide1/USA.png" alt="" />
+                        <img src="../img/slide1/Optimized-USA.png" alt="" />
                     </div>
                 </OwlCarousel>
             </section>
