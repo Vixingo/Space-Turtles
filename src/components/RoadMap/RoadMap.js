@@ -128,8 +128,6 @@ function RoadMap() {
                     >
                         Future developments will be announced in Roadmap 2.0.
                     </Typography> */}
-                </div>{" "}
-                <div className="container ">
                     <Stack
                         sx={{
                             mt: 5,
@@ -208,6 +206,8 @@ function RoadMap() {
                             ROADMAP 2.0
                         </IconButton>
                     </Stack>
+                </div>{" "}
+                <div className="container-fluid">
                     <div className="row mt-4">
                         <div className="col-xl-6">
                             {/* <OwlCarousel
@@ -332,13 +332,9 @@ function RoadMap() {
                             <Box sx={{ width: "100%" }}>
                                 {" "}
                                 <img
-                                    src="../img/Optimized-gree.jpg"
+                                    src="../img/thes.jpg"
                                     alt=""
                                     width="100%"
-                                    style={{
-                                        border: "2px solid #fff",
-                                        borderBottom: "2px solid #fff",
-                                    }}
                                 />
                             </Box>
                         </div>

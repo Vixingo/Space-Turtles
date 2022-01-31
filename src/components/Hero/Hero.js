@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import "animate.css";
 
 let my = setInterval(function () {
-    var bd = new Date("feb 5, 2022 7:59:59").getTime();
+    var bd = new Date("feb 7, 2022 7:59:59").getTime();
     var now = new Date().getTime();
     var rem = bd - now;
 
@@ -65,12 +65,13 @@ function Hero() {
                                 </Typography>
                                 <Typography
                                     variant="h5"
+                                    className="balo"
                                     sx={{
                                         mt: 4,
-                                        mb: 3,
+                                        mb: 1,
                                         textAlign: "center",
-                                        fontFamily: "Montserrat",
-                                        fontWeight: "700",
+                                        fontSize: "40px",
+                                        fontWeight: "500",
                                         "@media (max-width: 767px)": {
                                             fontSize: "18px",
                                         },
@@ -79,6 +80,7 @@ function Hero() {
                                     Privatesale ends in:
                                 </Typography>
                                 <Stack
+                                    className="balo"
                                     sx={{
                                         flexDirection: "row",
                                         alignItems: "center",
@@ -87,7 +89,7 @@ function Hero() {
                                         "& > :not(style)": {
                                             margin: "0 15px",
                                             fontWeight: "700",
-                                            fontSize: "21px",
+                                            fontSize: "25px",
 
                                             "@media (max-width: 767px)": {
                                                 fontSize: "16px",
@@ -95,31 +97,55 @@ function Hero() {
                                         },
                                     }}
                                 >
-                                    <Typography>
+                                    <Typography className="balo">
                                         Days{" "}
-                                        <Typography sx={{ fontSize: "40px" }}>
-                                            <span id="day"></span>
+                                        <Typography
+                                            sx={{ fontSize: "60px" }}
+                                            className="balo"
+                                        >
+                                            <span
+                                                id="day"
+                                                className="balo"
+                                            ></span>
                                         </Typography>
                                     </Typography>
                                     <span className="mt-4 mx-0">:</span>
-                                    <Typography>
+                                    <Typography className="balo">
                                         Hours{" "}
-                                        <Typography sx={{ fontSize: "40px" }}>
-                                            <span id="hour"></span>
+                                        <Typography
+                                            sx={{ fontSize: "60px" }}
+                                            className="balo"
+                                        >
+                                            <span
+                                                id="hour"
+                                                className="balo"
+                                            ></span>
                                         </Typography>
                                     </Typography>
                                     <span className="mt-4 mx-0">:</span>
-                                    <Typography>
+                                    <Typography className="balo">
                                         Minutes{" "}
-                                        <Typography sx={{ fontSize: "40px" }}>
-                                            <span id="min"></span>
+                                        <Typography
+                                            sx={{ fontSize: "60px" }}
+                                            className="balo"
+                                        >
+                                            <span
+                                                id="min"
+                                                className="balo"
+                                            ></span>
                                         </Typography>
                                     </Typography>
                                     <span className="mt-4 mx-0">:</span>
-                                    <Typography>
+                                    <Typography className="balo">
                                         Seconds{" "}
-                                        <Typography sx={{ fontSize: "40px" }}>
-                                            <span id="sec"></span>
+                                        <Typography
+                                            sx={{ fontSize: "60px" }}
+                                            className="balo"
+                                        >
+                                            <span
+                                                id="sec"
+                                                className="balo"
+                                            ></span>
                                         </Typography>
                                     </Typography>
                                 </Stack>

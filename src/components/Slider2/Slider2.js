@@ -28,68 +28,229 @@ function Slider2() {
                     loop
                     margin={20}
                     autoplay={true}
-                    autoplayTimeout={2000}
+                    autoplayTimeout={1000}
+                    autoplaySpeed={1000}
                     {...options}
                 >
                     <div className="item">
-                        <img src="../img/Slide2/Optimized-270.png" alt="" />
+                        <img
+                            src="../img/Slide2/Optimized-270.png"
+                            style={{
+                                border: "1px solid #fff",
+                                boxShadow:
+                                    "5px 5px 5px rgba(100, 100, 100, 0.2)",
+                            }}
+                            alt=""
+                        />
                     </div>
                     <div className="item">
-                        <img src="../img/Slide2/Optimized-295.png" alt="" />
+                        <img
+                            src="../img/Slide2/Optimized-295.png"
+                            style={{
+                                border: "1px solid #fff",
+                                boxShadow:
+                                    "5px 5px 5px rgba(100, 100, 100, 0.2)",
+                            }}
+                            alt=""
+                        />
                     </div>
                     <div className="item">
-                        <img src="../img/Slide2/Optimized-821.png" alt="" />
+                        <img
+                            src="../img/Slide2/Optimized-821.png"
+                            style={{
+                                border: "1px solid #fff",
+                                boxShadow:
+                                    "5px 5px 5px rgba(100, 100, 100, 0.2)",
+                            }}
+                            alt=""
+                        />
                     </div>
                     <div className="item">
-                        <img src="../img/Slide2/Optimized-824.png" alt="" />
+                        <img
+                            src="../img/Slide2/Optimized-824.png"
+                            style={{
+                                border: "1px solid #fff",
+                                boxShadow:
+                                    "5px 5px 5px rgba(100, 100, 100, 0.2)",
+                            }}
+                            alt=""
+                        />
                     </div>
                     <div className="item">
-                        <img src="../img/Slide2/Optimized-960.png" alt="" />
+                        <img
+                            src="../img/Slide2/Optimized-960.png"
+                            style={{
+                                border: "1px solid #fff",
+                                boxShadow:
+                                    "5px 5px 5px rgba(100, 100, 100, 0.2)",
+                            }}
+                            alt=""
+                        />
                     </div>
                     <div className="item">
-                        <img src="../img/Slide2/Optimized-1085.png" alt="" />
+                        <img
+                            src="../img/Slide2/Optimized-1085.png"
+                            style={{
+                                border: "1px solid #fff",
+                                boxShadow:
+                                    "5px 5px 5px rgba(100, 100, 100, 0.2)",
+                            }}
+                            alt=""
+                        />
                     </div>
                     <div className="item">
-                        <img src="../img/Slide2/Optimized-1217.png" alt="" />
+                        <img
+                            src="../img/Slide2/Optimized-1217.png"
+                            style={{
+                                border: "1px solid #fff",
+                                boxShadow:
+                                    "5px 5px 5px rgba(100, 100, 100, 0.2)",
+                            }}
+                            alt=""
+                        />
                     </div>
                     <div className="item">
-                        <img src="../img/Slide2/Optimized-1626.png" alt="" />
+                        <img
+                            src="../img/Slide2/Optimized-1626.png"
+                            style={{
+                                border: "1px solid #fff",
+                                boxShadow:
+                                    "5px 5px 5px rgba(100, 100, 100, 0.2)",
+                            }}
+                            alt=""
+                        />
                     </div>
                     <div className="item">
-                        <img src="../img/Slide2/Optimized-2234.png" alt="" />
+                        <img
+                            src="../img/Slide2/Optimized-2234.png"
+                            style={{
+                                border: "1px solid #fff",
+                                boxShadow:
+                                    "5px 5px 5px rgba(100, 100, 100, 0.2)",
+                            }}
+                            alt=""
+                        />
                     </div>
                     <div className="item">
-                        <img src="../img/Slide2/Optimized-2443.png" alt="" />
+                        <img
+                            src="../img/Slide2/Optimized-2443.png"
+                            style={{
+                                border: "1px solid #fff",
+                                boxShadow:
+                                    "5px 5px 5px rgba(100, 100, 100, 0.2)",
+                            }}
+                            alt=""
+                        />
                     </div>
                     <div className="item">
-                        <img src="../img/Slide2/Optimized-2450.png" alt="" />
+                        <img
+                            src="../img/Slide2/Optimized-2450.png"
+                            style={{
+                                border: "1px solid #fff",
+                                boxShadow:
+                                    "5px 5px 5px rgba(100, 100, 100, 0.2)",
+                            }}
+                            alt=""
+                        />
                     </div>
                     <div className="item">
-                        <img src="../img/Slide2/Optimized-2632.png" alt="" />
+                        <img
+                            src="../img/Slide2/Optimized-2632.png"
+                            style={{
+                                border: "1px solid #fff",
+                                boxShadow:
+                                    "5px 5px 5px rgba(100, 100, 100, 0.2)",
+                            }}
+                            alt=""
+                        />
                     </div>
                     <div className="item">
-                        <img src="../img/Slide2/Optimized-3579.png" alt="" />
+                        <img
+                            src="../img/Slide2/Optimized-3579.png"
+                            style={{
+                                border: "1px solid #fff",
+                                boxShadow:
+                                    "5px 5px 5px rgba(100, 100, 100, 0.2)",
+                            }}
+                            alt=""
+                        />
                     </div>
                     <div className="item">
-                        <img src="../img/Slide2/Optimized-3909.png" alt="" />
+                        <img
+                            src="../img/Slide2/Optimized-3909.png"
+                            style={{
+                                border: "1px solid #fff",
+                                boxShadow:
+                                    "5px 5px 5px rgba(100, 100, 100, 0.2)",
+                            }}
+                            alt=""
+                        />
                     </div>
                     <div className="item">
-                        <img src="../img/Slide2/Optimized-6861.png" alt="" />
+                        <img
+                            src="../img/Slide2/Optimized-6861.png"
+                            style={{
+                                border: "1px solid #fff",
+                                boxShadow:
+                                    "5px 5px 5px rgba(100, 100, 100, 0.2)",
+                            }}
+                            alt=""
+                        />
                     </div>
                     <div className="item">
-                        <img src="../img/Slide2/Optimized-7483.png" alt="" />
+                        <img
+                            src="../img/Slide2/Optimized-7483.png"
+                            style={{
+                                border: "1px solid #fff",
+                                boxShadow:
+                                    "5px 5px 5px rgba(100, 100, 100, 0.2)",
+                            }}
+                            alt=""
+                        />
                     </div>
                     <div className="item">
-                        <img src="../img/Slide2/Optimized-7929.png" alt="" />
+                        <img
+                            src="../img/Slide2/Optimized-7929.png"
+                            style={{
+                                border: "1px solid #fff",
+                                boxShadow:
+                                    "5px 5px 5px rgba(100, 100, 100, 0.2)",
+                            }}
+                            alt=""
+                        />
                     </div>
                     <div className="item">
-                        <img src="../img/Slide2/Optimized-8402.png" alt="" />
+                        <img
+                            src="../img/Slide2/Optimized-8402.png"
+                            style={{
+                                border: "1px solid #fff",
+                                boxShadow:
+                                    "5px 5px 5px rgba(100, 100, 100, 0.2)",
+                            }}
+                            alt=""
+                        />
                     </div>
                     <div className="item">
-                        <img src="../img/Slide2/Optimized-8729.png" alt="" />
+                        <img
+                            src="../img/Slide2/Optimized-8729.png"
+                            style={{
+                                border: "1px solid #fff",
+                                boxShadow:
+                                    "5px 5px 5px rgba(100, 100, 100, 0.2)",
+                            }}
+                            alt=""
+                        />
                     </div>
                     <div className="item">
-                        <img src="../img/Slide2/Optimized-9573.png" alt="" />
+                        <img
+                            src="../img/Slide2/Optimized-9573.png"
+                            style={{
+                                border: "1px solid #fff",
+                                boxShadow:
+                                    "5px 5px 5px rgba(100, 100, 100, 0.2)",
+                            }}
+                            alt=""
+                        />
                     </div>
                 </OwlCarousel>
             </section>

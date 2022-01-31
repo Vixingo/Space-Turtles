@@ -34,7 +34,7 @@ function Faqmain(props) {
                         <Typography
                             variant="h6"
                             fontFamily={"Montserrat"}
-                            color={"#7da275"}
+                            color={"#fff"}
                         >
                             {props.detail}
                         </Typography>

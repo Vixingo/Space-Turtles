@@ -29,87 +29,229 @@ function Slider1() {
                     loop
                     margin={20}
                     autoplay={true}
-                    autoplayTimeout={1000}
-                    autoplaySpeed={1000}
+                    autoplayTimeout={2000}
+                    autoplaySpeed={2000}
                     {...options}
                 >
                     <div className="item">
-                        <img src="../img/slide1/Optimized-ALBANIA.png" alt="" />
+                        <img
+                            src="../img/slide1/Optimized-ALBANIA.png"
+                            style={{
+                                border: "1px solid #fff",
+                                boxShadow:
+                                    "5px 5px 5px rgba(100, 100, 100, 0.2)",
+                            }}
+                            alt=""
+                        />
                     </div>
                     <div className="item">
                         <img
                             src="../img/slide1/Optimized-ARGENTINA.png"
+                            style={{
+                                border: "1px solid #fff",
+                                boxShadow:
+                                    "5px 5px 5px rgba(100, 100, 100, 0.2)",
+                            }}
                             alt=""
                         />
                     </div>
                     <div className="item">
                         <img
                             src="../img/slide1/Optimized-AUSTRALIA.png"
+                            style={{
+                                border: "1px solid #fff",
+                                boxShadow:
+                                    "5px 5px 5px rgba(100, 100, 100, 0.2)",
+                            }}
                             alt=""
                         />
                     </div>
                     <div className="item">
-                        <img src="../img/slide1/Optimized-BELGIUM.png" alt="" />
+                        <img
+                            src="../img/slide1/Optimized-BELGIUM.png"
+                            style={{
+                                border: "1px solid #fff",
+                                boxShadow:
+                                    "5px 5px 5px rgba(100, 100, 100, 0.2)",
+                            }}
+                            alt=""
+                        />
                     </div>
                     <div className="item">
-                        <img src="../img/slide1/Optimized-BOSNIA.png" alt="" />
+                        <img
+                            src="../img/slide1/Optimized-BOSNIA.png"
+                            style={{
+                                border: "1px solid #fff",
+                                boxShadow:
+                                    "5px 5px 5px rgba(100, 100, 100, 0.2)",
+                            }}
+                            alt=""
+                        />
                     </div>
                     <div className="item">
-                        <img src="../img/slide1/Optimized-BRAZIL.png" alt="" />
+                        <img
+                            src="../img/slide1/Optimized-BRAZIL.png"
+                            style={{
+                                border: "1px solid #fff",
+                                boxShadow:
+                                    "5px 5px 5px rgba(100, 100, 100, 0.2)",
+                            }}
+                            alt=""
+                        />
                     </div>
                     <div className="item">
-                        <img src="../img/slide1/Optimized-CHILE.png" alt="" />
+                        <img
+                            src="../img/slide1/Optimized-CHILE.png"
+                            style={{
+                                border: "1px solid #fff",
+                                boxShadow:
+                                    "5px 5px 5px rgba(100, 100, 100, 0.2)",
+                            }}
+                            alt=""
+                        />
                     </div>
                     <div className="item">
                         <img
                             src="../img/slide1/Optimized-COLOMBIA.png"
+                            style={{
+                                border: "1px solid #fff",
+                                boxShadow:
+                                    "5px 5px 5px rgba(100, 100, 100, 0.2)",
+                            }}
                             alt=""
                         />
                     </div>
                     <div className="item">
-                        <img src="../img/slide1/Optimized-CROATIA.png" alt="" />
+                        <img
+                            src="../img/slide1/Optimized-CROATIA.png"
+                            style={{
+                                border: "1px solid #fff",
+                                boxShadow:
+                                    "5px 5px 5px rgba(100, 100, 100, 0.2)",
+                            }}
+                            alt=""
+                        />
                     </div>
                     <div className="item">
-                        <img src="../img/slide1/Optimized-DENMARK.png" alt="" />
+                        <img
+                            src="../img/slide1/Optimized-DENMARK.png"
+                            style={{
+                                border: "1px solid #fff",
+                                boxShadow:
+                                    "5px 5px 5px rgba(100, 100, 100, 0.2)",
+                            }}
+                            alt=""
+                        />
                     </div>
                     <div className="item">
-                        <img src="../img/slide1/Optimized-ENGLAND.png" alt="" />
+                        <img
+                            src="../img/slide1/Optimized-ENGLAND.png"
+                            style={{
+                                border: "1px solid #fff",
+                                boxShadow:
+                                    "5px 5px 5px rgba(100, 100, 100, 0.2)",
+                            }}
+                            alt=""
+                        />
                     </div>
                     <div className="item">
-                        <img src="../img/slide1/Optimized-INDIA.png" alt="" />
+                        <img
+                            src="../img/slide1/Optimized-INDIA.png"
+                            style={{
+                                border: "1px solid #fff",
+                                boxShadow:
+                                    "5px 5px 5px rgba(100, 100, 100, 0.2)",
+                            }}
+                            alt=""
+                        />
                     </div>
                     <div className="item">
-                        <img src="../img/slide1/Optimized-IRAN.png" alt="" />
+                        <img
+                            src="../img/slide1/Optimized-IRAN.png"
+                            style={{
+                                border: "1px solid #fff",
+                                boxShadow:
+                                    "5px 5px 5px rgba(100, 100, 100, 0.2)",
+                            }}
+                            alt=""
+                        />
                     </div>
                     <div className="item">
-                        <img src="../img/slide1/Optimized-ITALY.png" alt="" />
+                        <img
+                            src="../img/slide1/Optimized-ITALY.png"
+                            style={{
+                                border: "1px solid #fff",
+                                boxShadow:
+                                    "5px 5px 5px rgba(100, 100, 100, 0.2)",
+                            }}
+                            alt=""
+                        />
                     </div>
                     <div className="item">
-                        <img src="../img/slide1/Optimized-SWEDEN.png" alt="" />
+                        <img
+                            src="../img/slide1/Optimized-SWEDEN.png"
+                            style={{
+                                border: "1px solid #fff",
+                                boxShadow:
+                                    "5px 5px 5px rgba(100, 100, 100, 0.2)",
+                            }}
+                            alt=""
+                        />
                     </div>
                     <div className="item">
                         <img
                             src="../img/slide1/Optimized-SWITZERLAND.png"
+                            style={{
+                                border: "1px solid #fff",
+                                boxShadow:
+                                    "5px 5px 5px rgba(100, 100, 100, 0.2)",
+                            }}
                             alt=""
                         />
                     </div>
                     <div className="item">
                         <img
                             src="../img/slide1/Optimized-THAILAND.png"
+                            style={{
+                                border: "1px solid #fff",
+                                boxShadow:
+                                    "5px 5px 5px rgba(100, 100, 100, 0.2)",
+                            }}
                             alt=""
                         />
                     </div>
                     <div className="item">
-                        <img src="../img/slide1/Optimized-TURKEY.png" alt="" />
+                        <img
+                            src="../img/slide1/Optimized-TURKEY.png"
+                            style={{
+                                border: "1px solid #fff",
+                                boxShadow:
+                                    "5px 5px 5px rgba(100, 100, 100, 0.2)",
+                            }}
+                            alt=""
+                        />
                     </div>
                     <div className="item">
                         <img
                             src="../img/slide1/Optimized-UNITED KINGDOM.png"
+                            style={{
+                                border: "1px solid #fff",
+                                boxShadow:
+                                    "5px 5px 5px rgba(100, 100, 100, 0.2)",
+                            }}
                             alt=""
                         />
                     </div>
                     <div className="item">
-                        <img src="../img/slide1/Optimized-USA.png" alt="" />
+                        <img
+                            src="../img/slide1/Optimized-USA.png"
+                            style={{
+                                border: "1px solid #fff",
+                                boxShadow:
+                                    "5px 5px 5px rgba(100, 100, 100, 0.2)",
+                            }}
+                            alt=""
+                        />
                     </div>
                 </OwlCarousel>
             </section>
