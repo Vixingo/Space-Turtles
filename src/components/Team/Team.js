@@ -1,4 +1,5 @@
 import { Typography, Box } from "@mui/material";
+
 import React from "react";
 import Teamcard from "./Teamcard";
 const teamData = [
@@ -49,7 +50,7 @@ function Team() {
 
                 <div className="container">
                     <div className="row">
-                        {teamData.map((data) => {
+                        {teamData.map((data, i, row) => {
                             return (
                                 <Teamcard
                                     imgsrc={data.imgsrc}

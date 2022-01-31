@@ -7,19 +7,13 @@ let my = setInterval(function () {
     var now = new Date().getTime();
     var rem = bd - now;
 
-    console.log(rem);
-
     var days = Math.floor(rem / (1000 * 60 * 60 * 24));
-    console.log(days);
 
     var hour = Math.floor((rem / (1000 * 60 * 60)) % 24);
-    console.log(hour);
 
     var minute = Math.floor((rem / 1000 / 60) % 60);
-    console.log(minute);
 
     var second = Math.floor((rem / 1000) % 60);
-    console.log(second);
 
     document.getElementById("day").innerHTML = days;
     document.getElementById("hour").innerHTML = hour;
