@@ -8,6 +8,7 @@ import Story from "./components/Story/Story";
 import RoadMap from "./components/RoadMap/RoadMap";
 import Team from "./components/Team/Team";
 import Faq from "./components/FAQ/Faq";
+
 function App() {
     return (
         <>
@@ -15,6 +16,7 @@ function App() {
             <Hero />
             <Slider1 />
             <About />
+
             <RoadMap />
             <Faq />
             <Team />

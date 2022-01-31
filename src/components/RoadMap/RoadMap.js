@@ -1,11 +1,44 @@
-import { Typography, Box } from "@mui/material";
+import { Typography, Box, Stack } from "@mui/material";
 import React from "react";
 import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
+import { useState } from "react";
+import IconButton from "@mui/material/IconButton";
+import { makeStyles } from "@mui/styles";
 import Road from "./Road";
-const options = {
-    nav: true,
-};
+
+const useStyles = makeStyles({
+    normal: {
+        borderRadius: "0",
+        color: "#fff ",
+        fontFamily: "Montserrat",
+        fontSize: "20px",
+        fontWeight: "600",
+        "&:hover": {
+            color: "#7da275",
+        },
+    },
+    activated: {
+        fontSize: "20px",
+        background: "#F7941D !important",
+        borderRadius: "0 !important",
+        borderRadius: "10px !important",
+        fontWeight: "600",
+        color: "#000",
+        "& > :not(style)": {
+            color: "#fff",
+        },
+        "&:hover": {
+            color: "#000",
+        },
+    },
+    content: {
+        display: "none",
+    },
+    activeContent: {
+        display: "block",
+    },
+});
 const roadData = [
     {
         title: "START",
@@ -45,6 +78,12 @@ const roadData = [
 ];
 
 function RoadMap() {
+    const classes = useStyles();
+    const [toggleState, setToggleState] = useState(1);
+
+    const toggleTab = (index) => {
+        setToggleState(index);
+    };
     return (
         <>
             <section
@@ -79,7 +118,7 @@ function RoadMap() {
                         continue to be following the public sale. Below is what
                         we're working towards in the short term.
                     </Typography>
-                    <Typography
+                    {/* <Typography
                         sx={{
                             mt: 5,
                             color: "#fff",
@@ -88,12 +127,90 @@ function RoadMap() {
                         }}
                     >
                         Future developments will be announced in Roadmap 2.0.
-                    </Typography>
+                    </Typography> */}
                 </div>{" "}
                 <div className="container ">
-                    <div className="row">
+                    <Stack
+                        sx={{
+                            mt: 5,
+                            flexDirection: "row",
+                            justifyContent: "space-between",
+                        }}
+                    >
+                        <IconButton
+                            className={
+                                toggleState === 1
+                                    ? classes.activated
+                                    : classes.normal
+                            }
+                            onClick={() => toggleTab(1)}
+                        >
+                            START{" "}
+                        </IconButton>
+                        <IconButton
+                            className={
+                                toggleState === 2
+                                    ? classes.activated
+                                    : classes.normal
+                            }
+                            onClick={() => toggleTab(2)}
+                        >
+                            10% REACHED
+                        </IconButton>{" "}
+                        <IconButton
+                            className={
+                                toggleState === 3
+                                    ? classes.activated
+                                    : classes.normal
+                            }
+                            onClick={() => toggleTab(3)}
+                        >
+                            20% REACHED
+                        </IconButton>{" "}
+                        <IconButton
+                            className={
+                                toggleState === 4
+                                    ? classes.activated
+                                    : classes.normal
+                            }
+                            onClick={() => toggleTab(4)}
+                        >
+                            30% REACHED
+                        </IconButton>
+                        <IconButton
+                            className={
+                                toggleState === 5
+                                    ? classes.activated
+                                    : classes.normal
+                            }
+                            onClick={() => toggleTab(5)}
+                        >
+                            40% REACHED
+                        </IconButton>
+                        <IconButton
+                            className={
+                                toggleState === 6
+                                    ? classes.activated
+                                    : classes.normal
+                            }
+                            onClick={() => toggleTab(6)}
+                        >
+                            50% REACHED
+                        </IconButton>
+                        <IconButton
+                            className={
+                                toggleState === 7
+                                    ? classes.activated
+                                    : classes.normal
+                            }
+                            onClick={() => toggleTab(7)}
+                        >
+                            ROADMAP 2.0
+                        </IconButton>
+                    </Stack>
+                    <div className="row mt-4">
                         <div className="col-xl-6">
-                            <OwlCarousel
+                            {/* <OwlCarousel
                                 className="owl-theme"
                                 loop
                                 items={1}
@@ -115,7 +232,101 @@ function RoadMap() {
                                         </div>
                                     );
                                 })}
-                            </OwlCarousel>
+                            </OwlCarousel> */}
+                            <Box>
+                                {" "}
+                                <div
+                                    className={
+                                        toggleState === 1
+                                            ? classes.activeContent
+                                            : classes.content
+                                    }
+                                >
+                                    <Road
+                                        title={roadData[0].title}
+                                        sec={roadData[0].sec}
+                                        detail={roadData[0].detail}
+                                    />
+                                </div>
+                                <div
+                                    className={
+                                        toggleState === 2
+                                            ? classes.activeContent
+                                            : classes.content
+                                    }
+                                >
+                                    <Road
+                                        title={roadData[1].title}
+                                        sec={roadData[1].sec}
+                                        detail={roadData[1].detail}
+                                    />
+                                </div>
+                                <div
+                                    className={
+                                        toggleState === 3
+                                            ? classes.activeContent
+                                            : classes.content
+                                    }
+                                >
+                                    <Road
+                                        title={roadData[2].title}
+                                        sec={roadData[2].sec}
+                                        detail={roadData[2].detail}
+                                    />
+                                </div>
+                                <div
+                                    className={
+                                        toggleState === 4
+                                            ? classes.activeContent
+                                            : classes.content
+                                    }
+                                >
+                                    <Road
+                                        title={roadData[3].title}
+                                        sec={roadData[3].sec}
+                                        detail={roadData[3].detail}
+                                    />
+                                </div>
+                                <div
+                                    className={
+                                        toggleState === 5
+                                            ? classes.activeContent
+                                            : classes.content
+                                    }
+                                >
+                                    <Road
+                                        title={roadData[4].title}
+                                        sec={roadData[4].sec}
+                                        detail={roadData[4].detail}
+                                    />
+                                </div>
+                                <div
+                                    className={
+                                        toggleState === 6
+                                            ? classes.activeContent
+                                            : classes.content
+                                    }
+                                >
+                                    <Road
+                                        title={roadData[5].title}
+                                        sec={roadData[5].sec}
+                                        detail={roadData[5].detail}
+                                    />
+                                </div>
+                                <div
+                                    className={
+                                        toggleState === 7
+                                            ? classes.activeContent
+                                            : classes.content
+                                    }
+                                >
+                                    <Road
+                                        title={roadData[6].title}
+                                        sec={roadData[6].sec}
+                                        detail={roadData[6].detail}
+                                    />
+                                </div>
+                            </Box>
                         </div>
                         <div className="col-xl-6">
                             <Box sx={{ width: "100%" }}>
@@ -125,7 +336,7 @@ function RoadMap() {
                                     alt=""
                                     width="100%"
                                     style={{
-                                        borderTop: "2px solid #fff",
+                                        border: "2px solid #fff",
                                         borderBottom: "2px solid #fff",
                                     }}
                                 />

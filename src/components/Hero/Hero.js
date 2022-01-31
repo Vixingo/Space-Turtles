@@ -88,6 +88,7 @@ function Hero() {
                                             margin: "0 15px",
                                             fontWeight: "700",
                                             fontSize: "21px",
+
                                             "@media (max-width: 767px)": {
                                                 fontSize: "16px",
                                             },
@@ -100,21 +101,21 @@ function Hero() {
                                             <span id="day"></span>
                                         </Typography>
                                     </Typography>
-                                    :
+                                    <span className="mt-4 mx-0">:</span>
                                     <Typography>
                                         Hours{" "}
                                         <Typography sx={{ fontSize: "40px" }}>
                                             <span id="hour"></span>
                                         </Typography>
                                     </Typography>
-                                    :
+                                    <span className="mt-4 mx-0">:</span>
                                     <Typography>
                                         Minutes{" "}
                                         <Typography sx={{ fontSize: "40px" }}>
                                             <span id="min"></span>
                                         </Typography>
                                     </Typography>
-                                    :
+                                    <span className="mt-4 mx-0">:</span>
                                     <Typography>
                                         Seconds{" "}
                                         <Typography sx={{ fontSize: "40px" }}>
