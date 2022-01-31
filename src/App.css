@@ -26,20 +26,3 @@ body {
     color: #000;
     background: #7da275;
 }
-@keyframes glowing {
-    0% {
-        box-shadow: 0 0 -10px #c4a300;
-    }
-    40% {
-        box-shadow: 0 0 20px #c4a300;
-    }
-    60% {
-        box-shadow: 0 0 20px #c4a300;
-    }
-    100% {
-        box-shadow: 0 0 -10px #c4a300;
-    }
-}
-.button-glow {
-    animation: glowing 2000ms infinite;
-}
