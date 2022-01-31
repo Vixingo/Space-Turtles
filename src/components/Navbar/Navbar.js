@@ -7,7 +7,8 @@ function Navbar() {
             <section
                 className="Navbar"
                 style={{
-                    backgroundColor: "#000123",
+                    background:
+                        "linear-gradient(90deg, rgba(36,4,69,1) 0%, rgba(2,0,21,1) 100%)",
                     boxShadow: "0 2px 8px 0 hsla(0,0%,98%,.2)",
                     position: "fixed",
                     width: "100%",
@@ -84,8 +85,14 @@ function Navbar() {
                                                 <IconButton
                                                     sx={{
                                                         color: "#fff",
+                                                        borderRadius: "10px",
+                                                        transition: "0.2s",
                                                         ":hover": {
                                                             color: "#7da275",
+                                                            backgroundColor:
+                                                                "#fff",
+                                                            boxShadow:
+                                                                " 0 0 10px #fff",
                                                         },
                                                     }}
                                                 >
@@ -99,8 +106,14 @@ function Navbar() {
                                                 <IconButton
                                                     sx={{
                                                         color: "#fff",
+                                                        borderRadius: "10px",
+                                                        transition: "0.2s",
                                                         ":hover": {
                                                             color: "#7da275",
+                                                            backgroundColor:
+                                                                "#fff",
+                                                            boxShadow:
+                                                                " 0 0 10px #fff",
                                                         },
                                                     }}
                                                 >
@@ -119,8 +132,14 @@ function Navbar() {
                                                     fontWeight: "bold",
                                                     fontSize: "16px",
                                                     fontFamily: "Montserrat",
+                                                    transition: "0.2s",
+
                                                     ":hover": {
-                                                        borderColor: "#fff",
+                                                        borderColor: "#7da275",
+                                                        color: "#7da275",
+                                                        backgroundColor: "#fff",
+                                                        boxShadow:
+                                                            " 0 0 20px #fff",
                                                     },
                                                 }}
                                             >

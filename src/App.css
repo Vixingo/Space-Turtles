@@ -15,13 +15,19 @@ body {
     color: #fff !important;
     font-weight: 700;
     font-family: "Montserrat", sans-serif;
+    font-size: 17px;
+    transition: 0.2s ease-out;
 }
 .nav-item {
     margin: auto 25px;
 }
 .nav-link:hover {
-    color: #7da275 !important;
+    color: #fff !important;
+    text-shadow: 0 0 7px #7da275, 0 0 10px #7da275, 0 0 21px #7da275,
+        0 0 42px #7da275, 0 0 82px #7da275, 0 0 92px #7da275, 0 0 102px #7da275,
+        0 0 151px #7da275;
 }
+
 ::selection {
     color: #000;
     background: #7da275;

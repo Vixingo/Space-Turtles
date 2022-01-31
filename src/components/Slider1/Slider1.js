@@ -3,6 +3,8 @@ import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
 function Slider1() {
     const options = {
+        slideTransition: "linear",
+
         responsive: {
             0: {
                 items: 1,
@@ -27,7 +29,8 @@ function Slider1() {
                     loop
                     margin={20}
                     autoplay={true}
-                    autoplayTimeout={2000}
+                    autoplayTimeout={1000}
+                    autoplaySpeed={1000}
                     {...options}
                 >
                     <div className="item">

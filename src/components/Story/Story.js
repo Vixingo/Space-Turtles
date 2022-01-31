@@ -282,8 +282,12 @@ function Story() {
                                         sx={{
                                             color: "#fff",
                                             fontSize: "30px",
+                                            borderRadius: "10px",
+                                            transition: "0.2s",
                                             ":hover": {
                                                 color: "#7da275",
+                                                backgroundColor: "#fff",
+                                                boxShadow: " 0 0 10px #fff",
                                             },
                                         }}
                                     >
@@ -298,8 +302,12 @@ function Story() {
                                         sx={{
                                             color: "#fff",
                                             fontSize: "30px",
+                                            borderRadius: "10px",
+                                            transition: "0.2s",
                                             ":hover": {
                                                 color: "#7da275",
+                                                backgroundColor: "#fff",
+                                                boxShadow: " 0 0 10px #fff",
                                             },
                                         }}
                                     >

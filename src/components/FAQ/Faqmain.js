@@ -31,7 +31,11 @@ function Faqmain(props) {
                         </Typography>
                     </AccordionSummary>
                     <AccordionDetails>
-                        <Typography fontFamily={"Montserrat"}>
+                        <Typography
+                            variant="h6"
+                            fontFamily={"Montserrat"}
+                            color={"#7da275"}
+                        >
                             {props.detail}
                         </Typography>
                     </AccordionDetails>
