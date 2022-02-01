@@ -35,7 +35,7 @@ function Slider1() {
                 >
                     <div className="item">
                         <img
-                            src="../img/slide1/Optimized-ALBANIA.png"
+                            src="../img/Slide1/Optimized-ALBANIA.png"
                             style={{
                                 border: "1px solid #fff",
                                 boxShadow:
@@ -46,7 +46,7 @@ function Slider1() {
                     </div>
                     <div className="item">
                         <img
-                            src="../img/slide1/Optimized-ARGENTINA.png"
+                            src="../img/Slide1/Optimized-ARGENTINA.png"
                             style={{
                                 border: "1px solid #fff",
                                 boxShadow:
@@ -57,7 +57,7 @@ function Slider1() {
                     </div>
                     <div className="item">
                         <img
-                            src="../img/slide1/Optimized-AUSTRALIA.png"
+                            src="../img/Slide1/Optimized-AUSTRALIA.png"
                             style={{
                                 border: "1px solid #fff",
                                 boxShadow:
@@ -68,7 +68,7 @@ function Slider1() {
                     </div>
                     <div className="item">
                         <img
-                            src="../img/slide1/Optimized-BELGIUM.png"
+                            src="../img/Slide1/Optimized-BELGIUM.png"
                             style={{
                                 border: "1px solid #fff",
                                 boxShadow:
@@ -79,7 +79,7 @@ function Slider1() {
                     </div>
                     <div className="item">
                         <img
-                            src="../img/slide1/Optimized-BOSNIA.png"
+                            src="../img/Slide1/Optimized-BOSNIA.png"
                             style={{
                                 border: "1px solid #fff",
                                 boxShadow:
@@ -90,7 +90,7 @@ function Slider1() {
                     </div>
                     <div className="item">
                         <img
-                            src="../img/slide1/Optimized-BRAZIL.png"
+                            src="../img/Slide1/Optimized-BRAZIL.png"
                             style={{
                                 border: "1px solid #fff",
                                 boxShadow:
@@ -101,7 +101,7 @@ function Slider1() {
                     </div>
                     <div className="item">
                         <img
-                            src="../img/slide1/Optimized-CHILE.png"
+                            src="../img/Slide1/Optimized-CHILE.png"
                             style={{
                                 border: "1px solid #fff",
                                 boxShadow:
@@ -112,7 +112,7 @@ function Slider1() {
                     </div>
                     <div className="item">
                         <img
-                            src="../img/slide1/Optimized-COLOMBIA.png"
+                            src="../img/Slide1/Optimized-COLOMBIA.png"
                             style={{
                                 border: "1px solid #fff",
                                 boxShadow:
@@ -123,7 +123,7 @@ function Slider1() {
                     </div>
                     <div className="item">
                         <img
-                            src="../img/slide1/Optimized-CROATIA.png"
+                            src="../img/Slide1/Optimized-CROATIA.png"
                             style={{
                                 border: "1px solid #fff",
                                 boxShadow:
@@ -134,7 +134,7 @@ function Slider1() {
                     </div>
                     <div className="item">
                         <img
-                            src="../img/slide1/Optimized-DENMARK.png"
+                            src="../img/Slide1/Optimized-DENMARK.png"
                             style={{
                                 border: "1px solid #fff",
                                 boxShadow:
@@ -145,7 +145,7 @@ function Slider1() {
                     </div>
                     <div className="item">
                         <img
-                            src="../img/slide1/Optimized-ENGLAND.png"
+                            src="../img/Slide1/Optimized-ENGLAND.png"
                             style={{
                                 border: "1px solid #fff",
                                 boxShadow:
@@ -156,7 +156,7 @@ function Slider1() {
                     </div>
                     <div className="item">
                         <img
-                            src="../img/slide1/Optimized-INDIA.png"
+                            src="../img/Slide1/Optimized-INDIA.png"
                             style={{
                                 border: "1px solid #fff",
                                 boxShadow:
@@ -167,7 +167,7 @@ function Slider1() {
                     </div>
                     <div className="item">
                         <img
-                            src="../img/slide1/Optimized-IRAN.png"
+                            src="../img/Slide1/Optimized-IRAN.png"
                             style={{
                                 border: "1px solid #fff",
                                 boxShadow:
@@ -178,7 +178,7 @@ function Slider1() {
                     </div>
                     <div className="item">
                         <img
-                            src="../img/slide1/Optimized-ITALY.png"
+                            src="../img/Slide1/Optimized-ITALY.png"
                             style={{
                                 border: "1px solid #fff",
                                 boxShadow:
@@ -189,7 +189,7 @@ function Slider1() {
                     </div>
                     <div className="item">
                         <img
-                            src="../img/slide1/Optimized-SWEDEN.png"
+                            src="../img/Slide1/Optimized-SWEDEN.png"
                             style={{
                                 border: "1px solid #fff",
                                 boxShadow:
@@ -200,7 +200,7 @@ function Slider1() {
                     </div>
                     <div className="item">
                         <img
-                            src="../img/slide1/Optimized-SWITZERLAND.png"
+                            src="../img/Slide1/Optimized-SWITZERLAND.png"
                             style={{
                                 border: "1px solid #fff",
                                 boxShadow:
@@ -211,7 +211,7 @@ function Slider1() {
                     </div>
                     <div className="item">
                         <img
-                            src="../img/slide1/Optimized-THAILAND.png"
+                            src="../img/Slide1/Optimized-THAILAND.png"
                             style={{
                                 border: "1px solid #fff",
                                 boxShadow:
@@ -222,7 +222,7 @@ function Slider1() {
                     </div>
                     <div className="item">
                         <img
-                            src="../img/slide1/Optimized-TURKEY.png"
+                            src="../img/Slide1/Optimized-TURKEY.png"
                             style={{
                                 border: "1px solid #fff",
                                 boxShadow:
@@ -233,7 +233,7 @@ function Slider1() {
                     </div>
                     <div className="item">
                         <img
-                            src="../img/slide1/Optimized-UNITED KINGDOM.png"
+                            src="../img/Slide1/Optimized-UNITED KINGDOM.png"
                             style={{
                                 border: "1px solid #fff",
                                 boxShadow:
@@ -244,7 +244,7 @@ function Slider1() {
                     </div>
                     <div className="item">
                         <img
-                            src="../img/slide1/Optimized-USA.png"
+                            src="../img/Slide1/Optimized-USA.png"
                             style={{
                                 border: "1px solid #fff",
                                 boxShadow:
