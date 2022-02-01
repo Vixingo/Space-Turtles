@@ -332,7 +332,7 @@ function RoadMap() {
                             <Box sx={{ width: "100%" }}>
                                 {" "}
                                 <img
-                                    src="../img/thes.jpg"
+                                    src="../img/butt2.png"
                                     alt=""
                                     width="100%"
                                 />
